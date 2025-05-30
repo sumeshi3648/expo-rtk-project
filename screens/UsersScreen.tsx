@@ -104,7 +104,7 @@ const styles = StyleSheet.create({
     paddingBottom: 20,
   },
   refreshButton: {
-    backgroundColor: '#3498db',
+    backgroundColor: '#e06e3d',
     padding: 12,
     borderRadius: 25,
     marginBottom: 20,
@@ -148,7 +148,7 @@ const styles = StyleSheet.create({
     width: 40,
     height: 40,
     borderRadius: 20,
-    backgroundColor: '#3498db',
+    backgroundColor: '#e06e3d',
     justifyContent: 'center',
     alignItems: 'center',
     marginRight: 16,
