@@ -14,5 +14,12 @@ export const store = configureStore({
     getDefaultMiddleware().concat(apiSlice.middleware),
 });
 
+
+//i decided to add listeners for refetcyhing for better user experience
+setupListeners(store.dispatch);
+
+//complete state tree of the app (typescript typr safety)
+export type RootState = ReturnType<typeof store.getState>;
+
 //dispatch function with right type information
 export type AppDispatch = typeof store.dispatch;
