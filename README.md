@@ -1,4 +1,4 @@
-# 📱 Expo + Redux Toolkit + RTK Query: User List App
+# User List App
 
 This is a simple **cross-platform React Native app** built with **Expo**, using **Redux Toolkit** and **RTK Query** to fetch and display users from a remote API. The app works on **mobile and web** platforms and demonstrates clean architectural practices using modern React Native tools.
 
@@ -6,14 +6,14 @@ This is a simple **cross-platform React Native app** built with **Expo**, using 
 
 ## 🚀 Features
 
-- 🔌 Fetches users from [JSONPlaceholder API](https://jsonplaceholder.typicode.com/users)
-- 🧩 Uses **RTK Query** for data fetching and caching
-- 🧭 Navigation using `@react-navigation/native` and Stack Navigator
-- 🗂 Displays users in a scrollable list (`FlatList`)
-- 🔄 Manual refresh button
-- 🔍 Search bar to filter users by name
-- 🎨 Clean and responsive UI with styled cards and avatar initials
-- 🌐 Fully functional on **Web** (`expo start --web`)
+- Fetches users from [JSONPlaceholder API](https://jsonplaceholder.typicode.com/users)
+- Uses **RTK Query** for data fetching and caching
+- Navigation using `@react-navigation/native` and Stack Navigator
+- Displays users in a scrollable list (`FlatList`)
+- Manual refresh button
+- Search bar to filter users by name
+- Clean and responsive UI with styled cards and avatar initials
+- Fully functional on **Web** (`expo start --web`)
 
 ---
 
@@ -33,7 +33,7 @@ This is a simple **cross-platform React Native app** built with **Expo**, using 
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/your-username/expo-rtkquery-userlist.git
+git clone https://github.com/sumeshi3648/expo-rtk-project.git
 cd expo-rtkquery-userlist
 
 2. **Install dependencies**
