@@ -13,7 +13,7 @@ export default function UserDetailScreen({ route }) {
 
   return (
     <ImageBackground 
-      source={require('../assets/bg2.jpg')} // Add your background image
+      source={require('../assets/bg2.jpg')}
       style={styles.background}
       resizeMode="cover"
     >
